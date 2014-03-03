@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sample Alert Dialog</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="alert_with_two_buttons">Alert With Two Buttons</string>
+    <string name="alert_with_three_buttons">Alert With Three Buttons</string>
+    <string name="alert_with_time_picker">Alert With Time Picker</string>
+    <string name="alert_with_date_picker">Alert With Date Picker</string>
+    <string name="alert_with_simple_list_view">Alert With Simple List View</string>
+    <string name="alert_with_scroll_view">Alert With Scroll View</string>
+    <string name="alert_with_form_elements">Alert With Form Elements</string>
+    <string name="alert_with_web_view">Alert With Web View</string>
+    <string name="open_activity">Open Activity</string>
+    <string name="title_activity_other">Other Activity</string>
+    <string name="alert_with_edit_box">Alert with Edit Box</string>
+    <string name="select_food">Scegli autorita</string>
+
+</resources>

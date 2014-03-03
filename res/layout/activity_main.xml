@@ -1,0 +1,78 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <Button
+        android:id="@+id/alertTwoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_with_two_buttons" />
+    
+    <Button
+        android:id="@+id/alertEditBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_with_edit_box" />
+
+    <Button
+        android:id="@+id/alertThreeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_with_three_buttons" />
+
+    <Button
+        android:id="@+id/alertTimePickerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_with_time_picker" />
+
+    <Button
+        android:id="@+id/alertDatePickerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_with_date_picker" />
+
+    <Button
+        android:id="@+id/alertSimpleListViewBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_with_simple_list_view" />
+
+    <Button
+        android:id="@+id/alertScrollViewBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_with_scroll_view" />
+
+    <Button
+        android:id="@+id/alertFormElementsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_with_form_elements" />
+
+    <Button
+        android:id="@+id/alertWebViewBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_with_web_view" />
+
+    <Button
+        android:id="@+id/openActivityBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_activity" />
+    
+  </LinearLayout>
+
+</ScrollView>
